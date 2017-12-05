@@ -31,7 +31,7 @@ if [ -d target ] ; then
 	rm -r target
 fi
 
-drush make --tar $makefile ./$target
+drush make --no-cache --tar $makefile ./$target
 if [ -f $expect ] ; then
 	echo "Done."
 	exit 0
