@@ -2,7 +2,7 @@
 core = 8.x
 
 api = 2
-projects[drupal][version] = "8.5.1"
+projects[drupal][version] = "8.5.3"
 
 ; Drupal Themes
 projects[danland][version] = "1.0"
